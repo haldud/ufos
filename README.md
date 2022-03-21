@@ -14,7 +14,7 @@ Here is an example where search criteria for all fields is provided and the resu
 ![Search Example](searchExample.png)
 
 ## Summary
-One major drawback that I see of this web page is the dependency on a static JSON file containing the UFO sightings. While UFO sightings may not be common, one would assume that we would want to make the list of UFO sightings more easily editable and/or database based. It may be best to have the web site retrieve UFO sightings from a database.
+One major drawback that I see of this web page is the dependency on a static JSON file containing the UFO sightings. While UFO sightings may not be common, one would assume that we would want to make the list of UFO sightings more easily editable and/or database based. It may be best to have the web site retrieve UFO sightings from a database. In addition, we could provide a form where the community could add new UFO sightings. Those entries could be added directly to the database, or be added to a list to be reviewed.
 
 Here are two additional recommendations to make the website more friendly to use:
 1. It would be nice to have the text fields recommend data with auto complete options, and perhaps limit me to those options if we are going to be performing exact matches on the provided text. For example, don't let me type the name of a city only to find out there are no UFO sightings. This can be done on all controls. Once one filter is applied, then the recommendations would change accordingly for every other input that's currently empty.
