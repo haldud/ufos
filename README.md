@@ -5,7 +5,7 @@ In this module, we have been utilizing JavaScript and HTML to build web applicat
 For this week's challenge, we were tasked to improve upon the searching capabilities of the application. In addition to the existing date input control, we added four additional input controls that allow users to filter the data further. Specifically, we added the ability to also filter by city, state, country, and shape. We performed this work by primarily editing the [index.html](index.html) and [app.js](static/js/app.js) files.
 
 ## Results
-The application is hosted via GitHub pages and can be accessed from here: [UFOs](https://haldud.github.io/ufos/)
+The application is hosted via GitHub pages and can be accessed here: [UFOs](https://haldud.github.io/ufos/)
 
 The user interface is fairly straightforward. All UFO sightings are initially displayed in a table upon page load. From there, the user may search for sightings on multiple criteria. Simply enter any value in the search criteria fields. Once you tab out of the field or press Enter, the table will be refreshed and only UFO sightings matching all of the provided criteria will display.
 
