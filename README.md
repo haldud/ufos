@@ -7,7 +7,7 @@ For this week's challenge, we were tasked to improve upon the searching capabili
 ## Results
 The application is hosted via GitHub pages and can be accessed here: [UFOs](https://haldud.github.io/ufos/)
 
-The user interface is fairly straightforward. All UFO sightings are initially displayed in a table upon page load. From there, the user may search for sightings on multiple criteria. Simply enter any value in the search criteria fields. Once you tab out of the field or press Enter, the table will be refreshed and only UFO sightings matching all of the provided criteria will display.
+The user interface is straightforward. All UFO sightings are initially displayed in a table upon page load. From there, the user may search for sightings on multiple criteria. Simply enter any value in the search criteria fields. Once you tab out of the field or press Enter, the table will be refreshed and only UFO sightings matching all of the provided criteria will display.
 
 Here is an example where search criteria for all fields is provided and the results filtered accordingly:
 
