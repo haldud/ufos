@@ -7,17 +7,17 @@ For this week's challenge, we were tasked to improve upon the searching capabili
 ## Results
 The application is hosted via GitHub pages and can be accessed here: [UFOs](https://haldud.github.io/ufos/)
 
-The user interface is straightforward. All UFO sightings are initially displayed in a table upon page load. From there, the user may search for sightings on multiple criteria. Simply enter any value in the search criteria fields. Once you tab out of the field or press Enter, the table will be refreshed and only UFO sightings matching all of the provided criteria will display.
+The user interface is straightforward. All UFO sightings are initially displayed in a table upon page load. From there, the user may search for sightings on multiple criteria. Simply enter any value in the search criteria fields. Once you tab out of the field or press Enter, the table will be refreshed and only UFO sightings matching all the provided criteria will display.
 
 Here is an example where search criteria for all fields is provided and the results filtered accordingly:
 
 ![Search Example](searchExample.png)
 
 ## Summary
-One major drawback that I see of this web page is the dependency on a static JSON file containing the UFO sightings. While UFO sightings may not be common, one would assume that we would want to make the list of UFO sightings more easily editable and/or database based. It may be best to have the web site retrieve UFO sightings from a database. In addition, we could provide a form where the community could add new UFO sightings. Those entries could be added directly to the database, or be added to a list to be reviewed.
+One major drawback that I see of this web page is the dependency on a static JSON file containing the UFO sightings. While UFO sightings may not be common, one would assume that we would want to make the list of UFO sightings more easily editable and/or database based. It may be best to have the web site retrieve UFO sightings from a database. In addition, we could provide a form where the community could add new UFO sightings. Those entries could be added directly to the database or added to a list for review.
 
 Here are two additional recommendations to make the website more friendly to use:
-1. It would be nice to have the text fields recommend data with auto complete options, and perhaps limit me to those options if we are going to be performing exact matches on the provided text. For example, don't let me type the name of a city only to find out there are no UFO sightings. This can be done on all controls. Once one filter is applied, then the recommendations would change accordingly for every other input that's currently empty.
+1. It would be nice to have the text fields recommend data with auto complete options, and perhaps limit the user to only those options if the web site is going to be performing exact matches on the provided text. For example, don't let the user type the name of a city only to find out there are no UFO sightings. This can be done on all controls. Once one filter is applied, then the recommendations would change accordingly for every other search input that is currently empty.
 2. A user would also have a better experience if the table columns were sortable. For example, one could easily identify the most recent or oldest UFO sighting by simply clicking on the Date header column.
 
-While the web site is quite limiting in functionality, we were able to demonstrate how quickly we can provide a rich user experience with a limited amount of code and effort. The primary reason for this is that we are using proven languages and frameworks in the web application development space.
+While the web site is quite limited in functionality, we were able to demonstrate how quickly we can provide a rich user experience with little code and effort. The primary reason for this is that we are using proven languages and frameworks in the web application development space.
