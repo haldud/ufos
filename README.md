@@ -2,7 +2,7 @@
 In this module, we have been utilizing JavaScript and HTML to build web applications. We incorporated [D3.js](https://d3js.org/) to load data into the HTML and respond to input changes. We also included [Bootstrap](https://getbootstrap.com/) to improve the look of our application and to make it responsive. We have been working on a web site that allows users to search for instances of UFO sightings.
 
 ## Overview
-For this week's challenge, we were tasked to improve upon the searching capabilities of the application. In addition to the existing date input control, we added four additional input controls that allow users to filter the data further. Specifically, we added the ability to also filter by city, state, country, and shape. We performed this work by primarily editing the (index.html)[index.html] and [app.js](static/js/app.js) files.
+For this week's challenge, we were tasked to improve upon the searching capabilities of the application. In addition to the existing date input control, we added four additional input controls that allow users to filter the data further. Specifically, we added the ability to also filter by city, state, country, and shape. We performed this work by primarily editing the [index.html](index.html) and [app.js](static/js/app.js) files.
 
 ## Results
 The application is hosted via GitHub pages and can be accessed from here: [UFOs](https://haldud.github.io/ufos/)
